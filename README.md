@@ -13,4 +13,6 @@ cd getvin
 docker build --tag getvin:latest
 
 4. Run docker application using the make of a car as the only input
+```script
 docker run getvin Toyota
+```
