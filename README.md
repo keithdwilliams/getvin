@@ -10,10 +10,10 @@ git clone git@github.com:keithdwilliams/getvin.git
 cd getvin
 
 3. Build docker image
-```
+```script
 docker build --tag getvin:latest
 ```
 4. Run docker application using the make of a car as the only input
-```
+```script
 docker run -v $(pwd):/home getvin toyota
 ```
